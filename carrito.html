@@ -27,45 +27,7 @@
             </ul>
         </nav>
     </header>
-<!--
-    <h1 class="carrito">Carrito de Compras</h1>
-    <div class="cart-container">
-        <div id="cart-items"></div>
-        <div class="cart-total">
-            Total: <span id="cart-total">$0</span>
-        </div>
-        <button class="checkout-button" onclick="proceedToPayment()">Proceder al Pago</button>
-    </div>
 
-    <script>
-        // Obtener los datos del carrito desde localStorage
-        const cart = JSON.parse(localStorage.getItem('cart')) || [];
-        const total = parseFloat(localStorage.getItem('total')) || 0;
-
-        // Mostrar los productos en el carrito
-        const cartItems = document.getElementById('cart-items');
-        const cartTotal = document.getElementById('cart-total');
-
-        cart.forEach(item => {
-            const itemDiv = document.createElement('div');
-            itemDiv.className = 'cart-item';
-            itemDiv.innerHTML = `
-                <span>${item.name}</span>
-                <span>$${item.price}</span>
-            `;
-            cartItems.appendChild(itemDiv);
-        });
-
-        // Mostrar el total
-        cartTotal.textContent = `$${total.toFixed(2)}`;
-
-        // Función para proceder al pago
-        function proceedToPayment() {
-            window.location.href = '#'; 
-        }
-    </script>
-</body>
--->
 
 <h1 class="carrito">Carrito de Compras</h1>
 <div class="cart-container">
